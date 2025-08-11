@@ -69,6 +69,5 @@ Questo progetto è distribuito sotto licenza **MIT**. Puoi usarlo, modificarlo e
 
 ## 👾 Autore
 
-**Igor** – Gamer, sviluppatore, ottimizzatore seriale.  
-Per contatti o collaborazioni: [aggiungi qui il tuo link o email se vuoi]
-
+**ilborga70** – Gamer, sviluppatore, ottimizzatore seriale.  
+Per contatti o collaborazioni: [borgaccino@gmail.com]
