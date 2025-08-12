@@ -8,6 +8,32 @@
 
 ---
 
+# 🖥️ 1. Scarica e avvia il programma
+- Vai alla pagina GitHub del progetto: https://github.com/ilborga70/SCL-Gaming-Boost/releases/tag/0.9.0.0
+- Scarica il file SCL Gaming Boost.exe.
+- Avvia l'applicazione come amministratore (clic destro → "Esegui come amministratore").
+
+🎮 2. Scegli la modalità di Boost
+Nella GUI troverai tre profili:
+- FPS Boost: massimizza le prestazioni nei giochi.
+- Streaming Mode: bilancia prestazioni e stabilità per lo streaming.
+- Standard: ottimizzazioni leggere per uso quotidiano.
+
+Seleziona quello più adatto alle tue esigenze.
+
+⚙️ 3. Applica il Boost
+- Premi il pulsante "Boost" per attivare le ottimizzazioni.
+- Il programma disattiverà servizi inutili, modificherà il registro e fermerà task pianificati.
+- Lo stato delle ottimizzazioni sarà visibile in tempo reale.
+
+🔁 4. Riavvia il sistema (opzionale)
+- Dopo aver applicato il Boost, puoi cliccare su "Restart" per riavviare il PC e rendere effettive tutte le modifiche.
+
+📝 5. Controlla i log
+- Tutte le operazioni vengono salvate in un file .log nella cartella del programma, utile per monitoraggio e debugging.
+
+---
+
 ## 🚀 Funzionalità
 
 - ✅ **Modalità Boost personalizzabile**  
