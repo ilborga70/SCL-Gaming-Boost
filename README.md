@@ -10,6 +10,12 @@
 
 ---
 
+<img width="2560" height="1080" alt="vms drweb-av" src="https://github.com/user-attachments/assets/5a887536-e2f3-403d-89f7-7af378ff70f1" />
+
+https://vms.drweb-av.it/scan_file/?utm_medium=glavnaya&utm_source=drweb_site&utm_campaign=scanfile
+
+---
+
 # 🖥️ 1. Scarica e avvia il programma
 - Vai alla pagina GitHub del progetto: https://github.com/ilborga70/SCL-Gaming-Boost/releases/tag/0.9.0.0
 - Scarica il file SCL Gaming Boost.exe.
