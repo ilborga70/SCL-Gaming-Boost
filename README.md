@@ -6,7 +6,7 @@
 
 **SCL Gaming Boost** è un utility avanzata per Windows pensata per i gamer più esigenti. Ottimizza il sistema operativo con un solo click, disattivando servizi superflui, riducendo la telemetria e applicando tweak intelligenti per migliorare le prestazioni in gioco.
 
-<img width="2560" height="1080" alt="Sniper Elite V2 Remastered Benchmark Report Windows 11 Default vs SCL Gaming Boost" src="https://github.com/user-attachments/assets/fc7a6728-4e5d-489d-8fa4-1094aeb6e715" />
+<img width="2560" height="1080" alt="Sniper Elite V2 Remastered Windows 11 + SCL Gaming Boost + Game Mode" src="https://github.com/user-attachments/assets/29251245-fccd-44c3-a0ac-e7a580bd5c9c" />
 
 ---
 
