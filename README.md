@@ -9,8 +9,9 @@
 -----
 
 <img width="751" height="565" alt="SCL Gaming Boost Ita_Eng" src="https://github.com/user-attachments/assets/b253b184-9963-4ded-8162-2bf3ebaea6b1" />
+<img width="751" height="565" alt="SCL Gaming Boost Ita_Eng_clean" src="https://github.com/user-attachments/assets/b34125ff-c209-465e-80cb-2c0fb8e1f61b" />
 
-
+* **https://vms.drweb-av.it/scan_file/**
 -----
 
 ### 🔁 New feature to detect and load the user's preferred language, adding a drop-down menu for language selection and dynamically updating the GUI text.
