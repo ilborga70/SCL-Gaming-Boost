@@ -1,152 +1,88 @@
-# 🎮 SCL Gaming Boost
+🔁 New feature to detect and load the user's preferred language, adding a drop-down menu for language selection and dynamically updating the GUI text.
 
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![PowerShell](https://img.shields.io/badge/language-PowerShell-lightgrey)
-![Status](https://img.shields.io/badge/status-Active-brightgreen)
-
-**SCL Gaming Boost** è un utility avanzata per Windows pensata per i gamer più esigenti. Ottimizza il sistema operativo con un solo click, disattivando servizi superflui, riducendo la telemetria e applicando tweak intelligenti per migliorare le prestazioni in gioco.
-
-<img width="2560" height="1080" alt="Sniper Elite V2 Remastered Windows 11 + SCL Gaming Boost + Game Mode" src="https://github.com/user-attachments/assets/29251245-fccd-44c3-a0ac-e7a580bd5c9c" />
-
----
-
-<img width="2560" height="1080" alt="vms drweb-av" src="https://github.com/user-attachments/assets/5a887536-e2f3-403d-89f7-7af378ff70f1" />
-
-https://vms.drweb-av.it/scan_file/?utm_medium=glavnaya&utm_source=drweb_site&utm_campaign=scanfile
-
----
-
-# 🖥️ 1. Scarica e avvia il programma
-- Vai alla pagina GitHub del progetto: https://github.com/ilborga70/SCL-Gaming-Boost/releases/tag/0.9.0.0
-- Scarica il file SCL Gaming Boost.exe.
-- Avvia l'applicazione come amministratore (clic destro → "Esegui come amministratore").
-
-🎮 2. Scegli la modalità di Boost
-Nella GUI troverai tre profili:
-- FPS Boost: massimizza le prestazioni nei giochi.
-- Streaming Mode: bilancia prestazioni e stabilità per lo streaming.
-- Standard: ottimizzazioni leggere per uso quotidiano.
-
-Seleziona quello più adatto alle tue esigenze.
-
-⚙️ 3. Applica il Boost
-- Premi il pulsante "Boost" per attivare le ottimizzazioni.
-- Il programma disattiverà servizi inutili, modificherà il registro e fermerà task pianificati.
-- Lo stato delle ottimizzazioni sarà visibile in tempo reale.
-
-🔁 4. Riavvia il sistema (opzionale)
-- Dopo aver applicato il Boost, puoi cliccare su "Restart" per riavviare il PC e rendere effettive tutte le modifiche.
-
-📝 5. Controlla i log
-- Tutte le operazioni vengono salvate in un file .log nella cartella del programma, utile per monitoraggio e debugging.
-
----
-
-## 🚀 Funzionalità
-
-- ✅ **Modalità Boost personalizzabile**  
-  Attiva ottimizzazioni mirate per il gaming, lo streaming o l’uso quotidiano.
-
-- 🎯 **Profili selezionabili**  
-  - FPS Boost  
-  - Streaming Mode  
-  - Standard
-
-- 📊 **Controllo in tempo reale**  
-  Visualizza lo stato attivo/inattivo direttamente dalla GUI.
-
-- 🧠 **Salvataggio automatico delle preferenze**  
-  Il programma ricorda le tue ultime impostazioni e lo stato del Boost.
-
-- 🔁 **Riavvio rapido del sistema**  
-  Pulsante dedicato per riavviare Windows in modo sicuro.
-
-- 📝 **Log dettagliato delle operazioni**  
-  Tutte le azioni vengono registrate in un file `.log` per monitoraggio e debugging.
-
----
-
-## 🛡️ Ottimizzazioni applicate
-
-### 🔧 Servizi disattivati durante il Boost
-
-| Servizio                  | Descrizione                                      |
-|---------------------------|--------------------------------------------------|
-| `SysMain`                 | Ottimizzazione automatica del sistema (Superfetch) |
-| `WSearch`                 | Indicizzazione file e ricerca                    |
-| `DiagTrack`               | Telemetria e tracciamento diagnostico           |
-| `Fax`                     | Servizio fax (raramente usato)                  |
-| `Spooler`                 | Gestione stampa                                 |
-| `WMPNetworkSvc`           | Condivisione multimediale di Windows Media Player |
-| `XblGameSave`             | Salvataggi cloud Xbox                           |
-| `BluetoothSupportService`| Supporto Bluetooth                               |
-| `RemoteRegistry`          | Accesso remoto al registro                      |
-| `PhoneSvc`                | Servizi legati alla telefonia                   |
-
-### 📅 Attività pianificate disattivate
-
-| Attività                                                                 |
-|--------------------------------------------------------------------------|
-| `ProgramDataUpdater` – Esperienza applicazioni                          |
-| `Proxy` – Autochk                                                        |
-| `Consolidator` – Programma miglioramento esperienza cliente             |
-| `UsbCeip` – Telemetria USB                                               |
-
----
-
-## 🧠 Modifiche al Registro di Sistema
-
-| Chiave di registro                                                                 | Valore impostato | Descrizione                                                                 |
-|------------------------------------------------------------------------------------|------------------|-----------------------------------------------------------------------------|
-| `HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection\AllowTelemetry`           | `0`              | Disattiva la telemetria                                                     |
-| `HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl\Win32PrioritySeparation`   | `26`             | Ottimizza la priorità dei thread                                            |
-| `HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\VisualFXSetting` | `2`         | Disattiva effetti visivi                                                    |
-| `HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR\AppCaptureEnabled`        | `0`              | Disattiva la registrazione automatica dei giochi                           |
-| `HKCU\SOFTWARE\Microsoft\GameBar\ShowStartupPanel`                                | `0`              | Nasconde il pannello Game Bar all’avvio                                     |
-| `HKCU\SOFTWARE\Microsoft\GameBar\AutoGameModeEnabled`                             | `0`              | Disattiva Game Mode automatico                                              |
-| `HKCU\SOFTWARE\Microsoft\GameBar\AllowAutoGameMode`                               | `1`              | Consente Game Mode manuale                                                  |
-| `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\LargeSystemCache` | `1`      | Ottimizza la cache di sistema                                               |
-| `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\DisablePagingExecutive` | `1` | Mantiene i driver in RAM per prestazioni migliori                          |
-
-> 🔁 Tutte le modifiche vengono **ripristinate automaticamente** quando il Boost viene disattivato.
-
----
-
-## 📦 Distribuzione
-
-Il programma è disponibile come **file eseguibile** per Windows. Nessuna installazione richiesta: basta avviarlo con privilegi amministrativi.
-
-> ⚠️ **Nota:** Alcune ottimizzazioni richiedono diritti di amministratore. Assicurati di eseguire il programma come _Administrator_.
-
----
-
-## 🛠️ Requisiti
-
-- Windows 10 o superiore  
-- PowerShell 5.0+  
-- Privilegi amministrativi
-
----
-
-## 📁 File generati
-
-- `SCLGamingBoost.log` – Registro delle operazioni  
-- `SCLGamingBoost.settings` – Preferenze utente salvate
-
----
-
-## 💬 Feedback & Contributi
-
-Hai idee per nuove funzionalità? Vuoi contribuire al progetto? Apri una issue o invia una pull request!
-
----
-
-## 📜 Licenza
-
-Questo progetto è distribuito sotto licenza **MIT**. Puoi usarlo, modificarlo e distribuirlo liberamente.
-
----
+<img width="751" height="565" alt="SCL Gaming Boost Ita_Eng" src="https://github.com/user-attachments/assets/89daf2a6-9737-4f76-b092-efcaa6e4f187" />
 
 
-**ilborga70** – Gamer, sviluppatore, ottimizzatore seriale.  
-Per contatti o collaborazioni: [borgaccino@gmail.com]
+🖥️ 1. Download and launch the program
+- Go to the project's GitHub page.
+- Download the SCL Gaming Boost.exe file.
+- Run the application as administrator (right-click → "Run as administrator").
+
+🎮 2. Select the Boost mode
+In the GUI, you'll find three profiles:
+- FPS Boost: maximizes performance in games.
+- Streaming Mode: balances performance and stability for streaming.
+- Standard: light optimizations for everyday use.
+
+Select the one that best suits your needs.
+
+⚙️ 3. Apply the Boost
+- Press the "Boost" button to activate the optimizations.
+- The program will disable unnecessary services, modify the registry, and stop scheduled tasks.
+- The optimization status will be visible in real time.
+
+🔁 4. Restart the system (optional)
+- After applying the Boost, you can click "Restart" to restart your PC and apply all the changes.
+
+📝 5. Check the logs
+- All operations are saved in a .log file in the program folder, useful for monitoring and debugging.
+
+SCL Gaming Boost is an advanced Windows utility designed for the most demanding gamers. It optimizes the operating system with a single click, disabling unnecessary services, reducing telemetry, and applying intelligent tweaks to improve in-game performance.
+🚀 Features
+✅ Customizable Boost Mode
+Activate targeted optimizations for gaming, streaming, or everyday use.
+FPS Boost
+Streaming Mode
+Standard
+📊 Real-time control
+View active/inactive status directly from the GUI.
+🧠 Automatically save preferences
+The program remembers your last settings and Boost status.
+🔁 Quick system restart
+Dedicated button to safely restart Windows.
+📝 Detailed operation log
+All actions are recorded in a .log file for monitoring and debugging.
+🛡️ Optimizations Applied
+🔧 Services Disabled During Boost
+
+Service Description
+SysMain Automatic System Optimization (Superfetch)
+WSearch File Indexing and Search
+DiagTrack Telemetry and Diagnostic Tracking
+Fax Fax Service (Rarely Used)
+Spooler Print Management
+WMPNetworkSvc Windows Media Player Media Sharing
+XblGameSave Xbox Cloud Saves
+BluetoothSupportService Bluetooth Support
+RemoteRegistry Remote Registry Access
+PhoneSvc Telephony-Related Services
+
+📅 Scheduled Tasks Disabled
+
+Tasks
+ProgramDataUpdater – Application Experience
+Proxy – Autochk
+Consolidator – Customer Experience Improvement Program
+UsbCeip – USB Telemetry
+
+🧠 Registry Changes
+
+🔁 All changes are automatically reverted when Boost is disabled.
+📦 Distribution​
+The program is available as an executable file for Windows. No installation required: just run it with administrative privileges.
+⚠️ Note: Some optimizations require administrator rights. Be sure to run the program as Administrator.
+🛠️ Requirements​
+Windows 10 or higher
+PowerShell 5.0+
+Administrative privileges
+📁 Generated Files​
+SCLGamingBoost.log – Operation Log
+SCLGamingBoost.settings – Saved User Preferences
+💬 Feedback & Contributions​
+Do you have ideas for new features?
+
+Want to contribute to the project? Open an issue or submit a pull request!
+📜 License
+This project is licensed under the MIT License. You can use, modify, and distribute it freely.
+ilborga70 – Gamer, developer, serial optimizer.
+For contact or collaborations: [borgaccino@gmail.com]
