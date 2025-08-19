@@ -8,8 +8,10 @@
 
 -----
 
-<img width="751" height="565" alt="SCL Gaming Boost Ita_Eng" src="https://github.com/user-attachments/assets/b253b184-9963-4ded-8162-2bf3ebaea6b1" />
-<img width="751" height="565" alt="SCL Gaming Boost Ita_Eng_clean" src="https://github.com/user-attachments/assets/b34125ff-c209-465e-80cb-2c0fb8e1f61b" />
+<img width="1800" height="927" alt="SCL Gaming Boost v1 1 0" src="https://github.com/user-attachments/assets/feae55da-9c8e-4504-8900-36e0a862ca80" />
+
+<img width="1531" height="905" alt="SCL Gaming Boost v1 1 0_clean" src="https://github.com/user-attachments/assets/35259983-2fa3-4f7c-8ea2-a65eacdcd685" />
+
 
 * **https://vms.drweb-av.it/scan_file/**
 -----
