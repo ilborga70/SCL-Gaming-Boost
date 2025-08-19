@@ -1,6 +1,12 @@
+🚀 SCL Gaming Boost v1.2.0.0 🚀
+
 -----
 
 ### 🎮 SCL Gaming Boost - Advanced Windows Optimization for Gamers 🎮
+
+🔁 I added a checkbox for “CPU Core Parking” and inserted the logic to activate the “Ultimate Performance” power plan.
+
+🔁 New feature to detect and load the user's preferred language, adding a drop-down menu for language selection and dynamically updating the GUI text.
 
 **SCL Gaming Boost** is a powerful Windows utility designed for demanding gamers. With a single click, it optimizes your operating system by disabling non-essential services, reducing telemetry, and applying intelligent tweaks to boost in-game performance.
 
@@ -8,10 +14,9 @@
 
 -----
 
-<img width="1800" height="927" alt="SCL Gaming Boost v1 1 0" src="https://github.com/user-attachments/assets/a57a11ce-c3b8-41c4-b5a6-660584fdee2e" />
+<img width="1800" height="927" alt="SCL Gaming Boost v1 2 0_v1 1" src="https://github.com/user-attachments/assets/44f3abfb-133e-4222-87f5-78515c852527" />
 
-
-<img width="1800" height="565" alt="SCL Gaming Boost Ita_Eng_clean" src="https://github.com/user-attachments/assets/b34125ff-c209-465e-80cb-2c0fb8e1f61b" />
+<img width="1531" height="905" alt="SCL Gaming Boost v1 2 0_clean" src="https://github.com/user-attachments/assets/1fd7cc9d-d21b-4511-bd20-060f292a52f6" />
 
 * **https://vms.drweb-av.it/scan_file/**
 -----
@@ -20,9 +25,6 @@
 
 -----
 
-🔁 I added a checkbox for “CPU Core Parking” and inserted the logic to activate the “Ultimate Performance” power plan.
-
-🔁 New feature to detect and load the user's preferred language, adding a drop-down menu for language selection and dynamically updating the GUI text.
 
 ### 🚀 Key Features
 
