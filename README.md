@@ -1,6 +1,6 @@
 -----
 
-### 🎮 SCL Gaming Boost - Advanced Windows Optimization for Gamers
+### 🎮 SCL Gaming Boost - Advanced Windows Optimization for Gamers 🎮
 
 **SCL Gaming Boost** is a powerful Windows utility designed for demanding gamers. With a single click, it optimizes your operating system by disabling non-essential services, reducing telemetry, and applying intelligent tweaks to boost in-game performance.
 
@@ -8,15 +8,21 @@
 
 -----
 
-<img width="1800" height="927" alt="SCL Gaming Boost v1 1 0" src="https://github.com/user-attachments/assets/feae55da-9c8e-4504-8900-36e0a862ca80" />
+<img width="1800" height="927" alt="SCL Gaming Boost v1 1 0" src="https://github.com/user-attachments/assets/a57a11ce-c3b8-41c4-b5a6-660584fdee2e" />
 
-<img width="1531" height="905" alt="SCL Gaming Boost v1 1 0_clean" src="https://github.com/user-attachments/assets/35259983-2fa3-4f7c-8ea2-a65eacdcd685" />
 
+<img width="1800" height="565" alt="SCL Gaming Boost Ita_Eng_clean" src="https://github.com/user-attachments/assets/b34125ff-c209-465e-80cb-2c0fb8e1f61b" />
 
 * **https://vms.drweb-av.it/scan_file/**
 -----
 
-### 🔁 New feature to detect and load the user's preferred language, adding a drop-down menu for language selection and dynamically updating the GUI text.
+<img width="1800" height="1600" alt="Sniper Elite V2 Remastered Benchmark Performance Summary" src="https://github.com/user-attachments/assets/f7e076af-1f26-4e10-a5d2-04813c1eb253" />
+
+-----
+
+🔁 I added a checkbox for “CPU Core Parking” and inserted the logic to activate the “Ultimate Performance” power plan.
+
+🔁 New feature to detect and load the user's preferred language, adding a drop-down menu for language selection and dynamically updating the GUI text.
 
 ### 🚀 Key Features
 
