@@ -1,8 +1,22 @@
-🚀 SCL Gaming Boost v1.2.0.0 🚀
+🚀 SCL Gaming Boost v1.3.0.0 🚀
 
 -----
 
 ### 🎮 SCL Gaming Boost - Advanced Windows Optimization for Gamers 🎮
+
+🔁 Summary of Improvements v1.3.0.0
+
+🔁 Your Powershell script for the “SCL Gaming Boost” GUI has been improved with more robust functionality and a more robust code structure. The main changes include:
+
+🔁 Improved Profile Logic: The FPS Boost and Streaming Mode profiles now have distinct behaviors. Streaming Mode explicitly keeps telemetry services and extra services active, which is essential for not interrupting background activities such as streaming software.
+
+🔁 Button State Management: The script now correctly manages the state of the “Start/Stop Boost” button even when the Standard profile is selected while the boost is active.
+
+🔁 Centralized Application Function: The Start-GamingBoost and Stop-GamingBoost functions have been replaced by a single Apply-BoostSettings function. This function manages the application of settings based on the selected profile and checkboxes, eliminating redundant logic in the button click event handler.
+
+🔁 GUI Code Cleanup: The GUI code has been reorganized for better readability and a more structured flow.
+
+🔁 Bug Fix: A bug has been fixed where the Standard profile did not correctly disable an already active boost.
 
 🔁 I added a checkbox for “CPU Core Parking” and inserted the logic to activate the “Ultimate Performance” power plan.
 
@@ -14,7 +28,7 @@
 
 -----
 
-<img width="1800" height="927" alt="SCL Gaming Boost v1 2 0_v1 1" src="https://github.com/user-attachments/assets/44f3abfb-133e-4222-87f5-78515c852527" />
+<img width="1800" height="927" alt="SCL Gaming Boost v1 3 0_v1 1" src="https://github.com/user-attachments/assets/9e795d90-996c-49d8-813d-00af29ae2f9e" />
 
 <img width="1531" height="905" alt="SCL Gaming Boost v1 2 0_clean" src="https://github.com/user-attachments/assets/1fd7cc9d-d21b-4511-bd20-060f292a52f6" />
 
