@@ -4,6 +4,8 @@
 
 <img width="1920" height="1080" alt="SCL Gaming Boost v1 3 0" src="https://github.com/user-attachments/assets/998a0a70-6923-4fae-9e7f-b0e74ab1223a" />
 
+Using the Dr.Web online file scanner, you can check suspicious files for malicious programs free of charge: https://vms.drweb-av.it/scan_file/
+
 -----
 
 ### 🎮 SCL Gaming Boost - Advanced Windows Optimization for Gamers 🎮
