@@ -1,8 +1,11 @@
-🚀 SCL Gaming Boost v1.3.0.0 🚀
+# 🚀 SCL Gaming Boost v1.4.0.0 🚀
+
+<img width="1913" height="1220" alt="SCL Gaming Boost v1 4 0" src="https://github.com/user-attachments/assets/f3f3f932-deff-480b-801f-f507a78c9674" />
+
+**Disclaimer**: You can check suspicious files for malicious programs free of charge using the Dr.Web online file scanner: [https://vms.drweb-av.it/scan\_file/](https://vms.drweb-av.it/scan_file/)
+
 
 -----
-
-### 🎮 SCL Gaming Boost - Advanced Windows Optimization for Gamers 🎮
 
 **SCL Gaming Boost** is a powerful Windows utility designed for demanding gamers. With a single click, it optimizes your operating system by disabling non-essential services, reducing telemetry, and applying intelligent tweaks to boost in-game performance.
 
@@ -10,7 +13,7 @@
 
 -----
 
-### 🚀 Key Features
+## 🎮 Key Features
 
   * **Customizable Boost Modes**: Activate targeted optimizations for gaming, streaming, or daily use.
       * **FPS Boost**: Maximizes performance in games.
@@ -24,7 +27,46 @@
 
 -----
 
-### 🛠️ How to Use the Program
+## 🛡️ Optimizations Applied
+
+### Services Disabled During Boost
+
+  * `SysMain` (Superfetch)
+  * `WSearch` (Indexing Service)
+  * `DiagTrack` (Telemetry)
+  * `Fax` (Fax Service)
+  * `Spooler` (Print Spooler)
+  * `Disable hibernation` (Frees up disk space and reduces system load)
+  * `Disable mouse acceleration` (Improves pointer accuracy in games)
+  * `Optimize Windows Update services` (Prevents bandwidth usage and resource consumption in the background)
+  * ...and other services not essential for gaming.
+
+### Scheduled Tasks Disabled
+
+  * `ProgramDataUpdater` (Application Experience)
+  * `Proxy` (Autochk)
+  * `Consolidator` (Customer Experience Improvement Program)
+  * `UsbCeip` (USB Telemetry)
+
+### Registry Changes
+
+Tweaks are applied to improve performance. All registry changes are **automatically reverted** when the Boost is disabled.
+
+| Registry Key                                                             | Value Set | Description                                                       |
+| ------------------------------------------------------------------------ | --------- | ----------------------------------------------------------------- |
+| `HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection`                | `AllowTelemetry: 0` | Disables telemetry                                                |
+| `HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl`                  | `Win32PrioritySeparation: 26` | Optimizes thread priority                                         |
+| `HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects`  | `VisualFXSetting: 2` | Disables visual effects                                           |
+| `HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR`                 | `AppCaptureEnabled: 0` | Disables automatic game recording                                 |
+| `HKCU\SOFTWARE\Microsoft\GameBar`                                        | `ShowStartupPanel: 0` | Hides Game Bar panel on startup                                   |
+| `HKCU\SOFTWARE\Microsoft\GameBar`                                        | `AutoGameModeEnabled: 0` | Disables automatic Game Mode                                      |
+| `HKCU\SOFTWARE\Microsoft\GameBar`                                        | `AllowAutoGameMode: 1` | Allows manual Game Mode                                           |
+| `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management` | `LargeSystemCache: 1` | Optimizes system cache                                            |
+| `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management` | `DisablePagingExecutive: 1` | Keeps drivers in RAM for better performance                       |
+
+-----
+
+## 🛠️ How to Use the Program
 
 1.  **Download and Launch**: Go to the project's GitHub page and download the `SCL Gaming Boost.exe` file. Run it as an administrator (right-click → "Run as administrator").
 2.  **Select Boost Mode**: In the GUI, choose the Boost mode that best suits your needs.
@@ -33,25 +75,7 @@
 
 -----
 
-### 🛡️ Optimizations Applied
-
-  * **Services Disabled During Boost**:
-      * `SysMain` (Superfetch)
-      * `WSearch` (Indexing Service)
-      * `DiagTrack` (Telemetry)
-      * `Fax` (Fax Service)
-      * `Spooler` (Print Spooler)
-      * ...and other services not essential for gaming.
-  * **Scheduled Tasks Disabled**:
-      * `ProgramDataUpdater` (Application Experience)
-      * `Proxy` (Autochk)
-      * `Consolidator` (Customer Experience Improvement Program)
-      * `UsbCeip` (USB Telemetry)
-  * **Registry Changes**: Tweaks are applied to improve performance. All registry changes are **automatically reverted** when the Boost is disabled.
-
------
-
-### 📦 Distribution & Requirements
+## 📦 Distribution & Requirements
 
   * **Distribution**: The program is available as a single executable file for Windows. No installation is required.
   * **Requirements**:
@@ -59,7 +83,9 @@
       * PowerShell 5.0+
       * Administrative privileges
 
-### 📜 License
+-----
+
+## 📜 License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute it.
 
