@@ -4,50 +4,6 @@
 
 **Disclaimer**: You can check suspicious files for malicious programs free of charge using the Dr.Web online file scanner: [https://vms.drweb-av.it/scan\_file/](https://vms.drweb-av.it/scan_file/)
 
----
-
-## 🎮 Sniper Elite V2 Remastered Benchmark: Windows 11 Game Mode vs. SCL Gaming Boost
-
-We ran two benchmark tests on Sniper Elite V2 Remastered using identical hardware and graphics settings. The only difference? One test used Windows 11's built-in Game Mode, while the other added a feature called **SCL Gaming Boost**.
-
-### 🖥️ Test Setup (Identical for Both Runs)
-
-- **CPU:** Intel Core i5-13600KF  
-- **GPU:** NVIDIA GeForce RTX 4080  
-- **RAM:** 64 GB  
-- **Resolution:** 2560 x 1080  
-- **Graphics Settings:** ULTRA preset, V-Sync OFF, Supersampling OFF  
-
----
-
-### 📊 Performance Comparison
-
-| Metric                | Game Mode Only | Game Mode + SCL Gaming Boost |
-|----------------------|----------------|-------------------------------|
-| **Average FPS**      | 710.9          | 730.3                         |
-| **Minimum FPS**      | 226.4          | 270.2                         |
-| **Maximum FPS**      | 1378.4         | 1342.3                        |
-| **Avg. Frame Time**  | 1.407 ms       | 1.369 ms                      |
-| **Min. Frame Time**  | 0.725 ms       | 0.745 ms                      |
-| **Max. Frame Time**  | 4.416 ms       | 3.700 ms                      |
-
----
-
-### 🧠 Analysis & Takeaways
-
-The clear winner here is the setup with **SCL Gaming Boost** enabled. Here's why:
-
-- ✅ **Average FPS** increased by ~2.7%, from 710.9 to 730.3. That means smoother overall performance and more frames rendered per second.
-- 🚀 **Minimum FPS** jumped from 226.4 to 270.2 — a crucial improvement for gameplay fluidity. Higher minimums reduce sudden frame drops and micro-stutters.
-- ⚡ **Average Frame Time** dropped from 1.407 ms to 1.369 ms. Lower frame times = faster image rendering = snappier responsiveness.
-- 📉 **Maximum FPS** dipped slightly (1378.4 → 1342.3), but this has negligible impact since both values far exceed the 200 Hz refresh rate of the monitor.
-- 🧩 **Maximum Frame Time** saw a notable reduction (4.416 ms → 3.700 ms), meaning fewer extreme spikes and smoother frame pacing.
-
----
-
-### 🏁 Final Verdict
-
-If you're chasing ultra-smooth gameplay and stability, enabling **SCL Gaming Boost** on top of Windows 11 Game Mode delivers measurable benefits — especially in minimum FPS and frame time consistency. It's not a massive leap, but it's a meaningful one for competitive or high-refresh gaming.
 
 -----
 
@@ -137,5 +93,3 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 
 **Developer**: [ilborga70](https://www.google.com/search?q=https://github.com/ilborga70) - Gamer, Developer, Serial Optimizer.
 For contact and collaborations: [borgaccino@gmail.com](mailto:borgaccino@gmail.com)
-
-
