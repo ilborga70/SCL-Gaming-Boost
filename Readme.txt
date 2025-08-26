@@ -1,4 +1,4 @@
-# 🎮 SCL Gaming Boost v1.5.0 — Benchmark & Features
+# 🎮 SCL Gaming Boost v1.6.0 — Benchmark & Features
 
 **Disclaimer**: You can check suspicious files for malicious programs free of charge using the Dr.Web online file scanner: https://vms.drweb-av.it/scan_file/
 
