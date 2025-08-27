@@ -1,4 +1,5 @@
 # 🎮 SCL Gaming Boost v1.6.5 — Benchmark & Features
+# <img width="1913" height="1094" alt="SCL Gaming Boost v1 6 5" src="https://github.com/user-attachments/assets/d130fad4-54ca-44f7-8caa-f7813076d85e" />
 
 **Disclaimer**: You can check suspicious files for malicious programs free of charge using the Dr.Web online file scanner: https://vms.drweb-av.it/scan_file/
 
@@ -147,4 +148,5 @@ Licensed under the **MIT License** — free to use, modify, and distribute.
 
 **ilborga70** — Gamer, Developer, Serial Optimizer  
 📧 [borgaccino@gmail.com](mailto:borgaccino@gmail.com)  
+
 🔗 [GitHub Profile](https://github.com/ilborga70)
