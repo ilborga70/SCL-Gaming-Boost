@@ -1,4 +1,4 @@
-# 🎮 SCL Gaming Boost v1.6.5 — Benchmark & Features
+# 🎮 SCL Gaming Boost v1.8.0 — Benchmark & Features
 
 **Disclaimer**: You can check suspicious files for malicious programs free of charge using the Dr.Web online file scanner: https://vms.drweb-av.it/scan_file/
 
@@ -106,15 +106,38 @@ A lightweight Windows utility that disables non-essential services, reduces tele
 
 ---
 
-## 🚀 NEW OPTIMIZATIONS FOR AN EXTRA BOOST
+# SCL Gaming Boost - Optimizations for Windows
 
-- 🔕 **Disable Windows Notifications**: Prevents micro-stuttering and distractions during gameplay.
-- 🧠 **Set Game Process Priority**: Ensures the game gets maximum CPU allocation.
-- 🌐 **Disable Network Card Power Saving**: Prevents bandwidth throttling and latency spikes.
-- 🧹 **Clear DNS Cache**: Resolves connection issues and improves response times.
-- 💾 **Disable Hibernation**: Frees up disk space and reduces system load.
-- 🎯 **Disable Mouse Acceleration**: Improves pointer accuracy.
-- 🔄 **Optimize Windows Update Services**: Prevents background resource usage.
+SCL Gaming Boost is a PowerShell utility created to optimize your Windows system, improving gaming performance and reducing lag and micro-stuttering. This tool modifies system settings, services, and registry entries to eliminate unnecessary background processes, freeing up valuable resources for your games.
+
+## ✨ New Optimizations for an Extra Boost
+
+This version introduces a series of new powerful optimizations to take your performance to the next level. Each option can be enabled or disabled via the convenient user interface.
+
+| Optimization | Detailed Description |
+|---|---|
+| 🔕 **Disable Windows Notifications** | Disables system notifications to prevent annoying pop-ups and micro-stuttering that can disrupt gaming fluidity. |
+| 🧠 **Set Game Process Priority** | Ensures your game receives maximum CPU resource allocation. The script identifies the foreground process and sets its priority to "High" to ensure it always has precedence. |
+| 🌐 **Disable Network Card Power Saving** | Prevents the system from throttling your network card's bandwidth. This optimization is crucial for preventing lag and latency spikes during online gaming sessions. |
+| 🧹 **Clear DNS Cache** | Clears the system's DNS cache to resolve potential connection issues and improve response times (ping) with gaming servers. |
+| 💾 **Disable Hibernation** | Disables the hibernation feature to free up valuable disk space (the `hiberfil.sys` file) and reduce overall system load. |
+| 🎯 **Disable Mouse Acceleration** | Removes mouse pointer acceleration at the operating system level. This provides greater precision and a 1:1 response, essential for FPS games and e-sports. |
+| 🔄 **Optimize Windows Update Services** | Prevents Windows Update from downloading and installing updates in the background while you're gaming, reducing resource usage and preventing FPS drops. |
+
+## ⚙️ How It Works
+
+The tool temporarily modifies the following system settings to maximize performance:
+
+* **Disable Telemetry and Unnecessary Services**: Stops background services and telemetry activities that consume CPU and network cycles.
+* **CPU Management**: Disables CPU "Core Parking" (requires a reboot) and activates the "Ultimate Performance" power plan to ensure the processor runs at its full capacity.
+* **System Optimizations**: Applies registry modifications to optimize memory management, visual interface effects, and other basic settings.
+* **Xbox Services Management**: Disables services related to the Game Bar and the Xbox app that can impact performance.
+
+## ⚠️ Warning
+
+* **Run as Administrator**: This script must be run with administrator permissions to apply modifications to the system registry and services.
+* **Compatibility**: Designed for Windows 10 and 11. It may not work correctly on earlier versions of Windows.
+* **Mindful Use**: Some changes require a PC reboot to be fully effective. The original settings are restored by clicking the "Stop Boost" button or by restarting the script.
 
 ---
 
