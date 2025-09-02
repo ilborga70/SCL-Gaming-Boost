@@ -1,11 +1,20 @@
-# 🎮 SCL Gaming Boost v1.8.2
+## 🚀 What's New in SCL Gaming Boost v1.8.2+Fix
 
-**Optimize Windows for gaming with a single click.**  
+<img width="1913" height="1094" alt="SCL Gaming Boost v1 8 2" src="https://github.com/user-attachments/assets/cd28a4a6-a6bb-4b88-9b7c-6dc095d0cd4a" />
+
+- ✅ **Summary of the Change**  
+  I added an if block inside Load-Preferences that checks the saved state.
+  If $global:gamingActive is true, the script reapplies the optimisations by calling Start-GamingBoost with the correct preferences.
+  This ensures that the settings are not only displayed as active, but are also actually reapplied to the system, solving the persistence issue after restarting.
+
+---
+
+**Optimize Windows for gaming with a single click**  
 Disable unnecessary services, apply smart tweaks, and now... assign **high CPU priority** to your favorite games!
 
 ---
 
-## 🚀 What's New in v1.8.2
+## 🚀 What's New in v1.8.2.0
 
 - ✅ **High CPU Priority for Custom Executables**  
   Add your games to a custom list: each process will automatically be set to **High Priority** to maximize performance.
