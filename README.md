@@ -1,4 +1,5 @@
-# 🎮 SCL Gaming Boost v1.8.2
+<img width="1913" height="1094" alt="SCL Gaming Boost v1 8 2" src="https://github.com/user-attachments/assets/cd28a4a6-a6bb-4b88-9b7c-6dc095d0cd4a" />
+
 
 **Optimize Windows for gaming with a single click.**  
 Disable unnecessary services, apply smart tweaks, and now... assign **high CPU priority** to your favorite games!
@@ -82,3 +83,4 @@ Distributed under the **MIT License** — free to use, modify, and share.
 **ilborga70** — Gamer, Developer, Serial Optimizer  
 📧 [borgaccino@gmail.com](mailto:borgaccino@gmail.com)  
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
