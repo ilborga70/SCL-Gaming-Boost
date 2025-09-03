@@ -1,6 +1,6 @@
 # SCL Gaming Boost v1.9.0.0
 
-<img width="1913" height="1094" alt="SCL Gaming Boost v1 9 0 0" src="https://github.com/user-attachments/assets/f8d96da5-8697-4153-8e0b-99a755c748a7" />
+<img width="1913" height="1094" alt="SCL Gaming Boost v1 9 0 0" src="https://github.com/user-attachments/assets/d99f3d97-18a4-475c-abdc-7c6924de9f84" />
 
 **Disclaimer**: You can check suspicious files for malicious programs free of charge using the Dr.Web online file scanner: https://vms.drweb-av.it/scan_file/
 
@@ -173,3 +173,4 @@ Licensed under the **MIT License** — free to use, modify, and distribute.
 📧 [borgaccino@gmail.com](mailto:borgaccino@gmail.com)
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
