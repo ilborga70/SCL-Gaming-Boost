@@ -1,7 +1,6 @@
 # SCL Gaming Boost v1.9.1.0
 
-<img width="1913" height="1094" alt="SCL Gaming Boost v1 9 1" src="https://github.com/user-attachments/assets/54fb6722-4110-4cf9-9e8c-67abd3167b9d" />
-
+# <img width="1913" height="1094" alt="SCL Gaming Boost v1 9 1" src="https://github.com/user-attachments/assets/54fb6722-4110-4cf9-9e8c-67abd3167b9d" />
 
 **SCL Gaming Boost** is a lightweight yet powerful Windows utility designed to maximize your in-game performance. It intelligently disables non-essential services, halts background telemetry, and applies system-level tweaks to free up resources and reduce latency, giving you a smoother and more responsive gaming experience.
 
@@ -167,6 +166,7 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
   - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
 
 
 
