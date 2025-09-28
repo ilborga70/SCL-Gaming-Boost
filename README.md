@@ -1,25 +1,29 @@
 # SCL Gaming Boost v1.9.1.0
 
-<img width="1913" height="1094" alt="SCL Gaming Boost v1 9 1" src="https://github.com/user-attachments/assets/9a8ea550-30d2-4660-bc21-ece3e35c8461" />
+<img width="1913" height="1094" alt="SCL Gaming Boost v1 9 1" src="https://github.com/user-attachments/assets/54fb6722-4110-4cf9-9e8c-67abd3167b9d" />
 
-**Disclaimer**: You can check suspicious files for malicious programs free of charge using the Dr.Web online file scanner: https://vms.drweb-av.it/scan_file/
 
----
+**SCL Gaming Boost** is a lightweight yet powerful Windows utility designed to maximize your in-game performance. It intelligently disables non-essential services, halts background telemetry, and applies system-level tweaks to free up resources and reduce latency, giving you a smoother and more responsive gaming experience.
+
+> **Disclaimer**: You can check suspicious files for malicious programs free of charge using the Dr.Web online file scanner: [https://vms.drweb-av.it/scan\_file/](https://vms.drweb-av.it/scan_file/)
+
+-----
 
 ## 🧪 Benchmark: Sniper Elite V2 Remastered
-**Windows 11 Game Mode vs. SCL Gaming Boost**
 
-We ran two benchmark tests using identical hardware and graphics settings. The only difference? One test used Windows 11's built-in Game Mode, while the other added **SCL Gaming Boost**.
+**Windows 11 Game Mode vs. Game Mode + SCL Gaming Boost**
+
+We ran two benchmark tests using identical hardware and graphics settings. The only difference? One test used Windows 11's built-in Game Mode, while the other added **SCL Gaming Boost** on top.
 
 ### 🖥️ Test Setup
 
-- **CPU**: Intel Core i5-13600KF
-- **GPU**: NVIDIA GeForce RTX 4080
-- **RAM**: 64 GB
-- **Resolution**: 2560 x 1080
-- **Graphics Settings**: ULTRA preset, V-Sync OFF, Supersampling OFF
+  - **CPU**: Intel Core i5-13600KF
+  - **GPU**: NVIDIA GeForce RTX 4080
+  - **RAM**: 64 GB
+  - **Resolution**: 2560 x 1080
+  - **Graphics Settings**: ULTRA preset, V-Sync OFF, Supersampling OFF
 
----
+-----
 
 ### 📊 Performance Comparison
 
@@ -32,146 +36,137 @@ We ran two benchmark tests using identical hardware and graphics settings. The o
 | **Min. Frame Time** | 0.725 ms | 0.745 ms |
 | **Max. Frame Time** | 4.416 ms | 3.700 ms |
 
----
-
 ### 🧠 Analysis & Takeaways
 
-- ✅ **+2.7% Average FPS** boost
-- 🚀 **+19.3% Minimum FPS** improvement
-- ⚡ **Lower Average Frame Time** = snappier responsiveness
-- 📉 Slight dip in Max FPS is negligible
-- 🧩 **Reduced Max Frame Time** = smoother pacing
+  - ✅ **+2.7% Average FPS**: A solid increase in overall framerate.
+  - 🚀 **+19.3% Minimum FPS**: A massive improvement in stability, reducing stutters and dips.
+  - ⚡ **Lower Average Frame Time**: Snappier, more immediate responsiveness.
+  - 📉 **Reduced Max Frame Time**: Smoother frame pacing and less noticeable stutter.
 
----
+**Final Verdict**: **SCL Gaming Boost** delivers measurable performance gains, especially in minimum FPS and frame time consistency, making it ideal for competitive or high-refresh-rate gaming.
 
-## 🏁 Final Verdict
-
-**SCL Gaming Boost** delivers measurable performance gains, especially in minimum FPS and frame time consistency. Ideal for competitive or high-refresh gaming.
-
----
-
-## ⚙️ What Is SCL Gaming Boost?
-
-A lightweight Windows utility that disables non-essential services, reduces telemetry, and applies intelligent tweaks to boost in-game performance.
-
-> ⚠️ Some optimizations require administrator rights. Run the program as an administrator.
-
----
+-----
 
 ## 🎮 Key Features
 
-- **Customizable Boost Modes**:
-    - 🎯 **FPS Boost**: Maximizes frame rate by disabling non-critical services.
-    - 📺 **Streaming Mode**: Optimizes for streaming by keeping essential services active.
-    - 🧩 **Standard Mode**: Safely restores your system to its original state by using a **backup of your personal settings**, not just default values.
-- **Real-time Control Panel**
-- **Automatic Preference Saving**
-- **Quick System Restart**
-- **Detailed Operation Log**
-- **Multi-language Support**
+  - **🎯 Customizable Boost Modes**:
+      - **FPS Boost**: Maximizes your frame rate by disabling all non-critical services and applying aggressive performance tweaks.
+      - **Streaming Mode**: Optimizes your system for smooth streaming by keeping essential network and encoding-related services active while boosting game performance.
+      - **Standard Mode**: Safely and completely restores your system to its original state by loading a **backup of your personal settings**, not just applying generic default values.
+  - **✨ One-Click Optimization**: A simple, intuitive interface to apply and revert all changes.
+  - **💾 Automatic Preference Saving**: The tool remembers your chosen language and optimization settings between sessions.
+  - **🌐 Multi-Language Support**: Switch between languages on the fly.
+  - **🔄 Quick System Restart**: A convenient button to restart your PC and ensure all tweaks are applied correctly.
+  - **📝 Detailed Operation Log**: A `SCLGamingBoost.log` file is generated in your user profile to track all actions taken by the tool.
 
----
-
-### 🔧 Services Disabled
-
-- `SysMain` (Superfetch)
-- `WSearch` (Indexing Service)
-- `DiagTrack` (Telemetry)
-- `Fax`
-- `Spooler`
-- `WMPNetworkSvc` (Windows Media Player Network Sharing Service)
-- `XblGameSave` (Xbox Game Save)
-- `BluetoothSupportService`
-- `RemoteRegistry`
-- `PhoneSvc`
-
-### 📅 Scheduled Tasks Disabled
-
-- `ProgramDataUpdater`
-- `Proxy`
-- `Consolidator`
-- `UsbCeip`
-
-### 🧬 Registry Tweaks
-
-| Registry Key | Value Set | Description |
-|---|---|---|
-| `HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection` | `AllowTelemetry: 0` | Disables telemetry. |
-| `HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl` | `Win32PrioritySeparation: 26` | Optimizes thread priority for games. |
-| `HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects` | `VisualFXSetting: 2` | Disables visual effects. |
-| `HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR` | `AppCaptureEnabled: 0` | Disables game recording. |
-| `HKCU\SOFTWARE\Microsoft\GameBar` | `ShowStartupPanel: 0` | Hides Game Bar. |
-| `HKCU\SOFTWARE\Microsoft\GameBar` | `AutoGameModeEnabled: 0` | Disables auto Game Mode. |
-| `HKCU\SOFTWARE\Microsoft\GameBar` | `AllowAutoGameMode: 1` | Enables manual Game Mode. |
-| `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management` | `LargeSystemCache: 1` | Optimizes system cache. |
-| `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management` | `DisablePagingExecutive: 1` | Keeps drivers in RAM. |
-
----
-
-### ✨ New Optimizations for an Extra Boost
-
-This version introduces a series of new powerful optimizations to take your performance to the next level. Each option can be enabled or disabled via the convenient user interface.
-
-| Optimization | Detailed Description |
-|---|---|
-| 🔕 **Disable Windows Notifications** | Disables system notifications to prevent annoying pop-ups and micro-stuttering that can disrupt gaming fluidity. |
-| 🧠 **Set Game Process Priority** | Ensures your game receives maximum CPU resource allocation. The script identifies the foreground process and sets its priority to "High" to ensure it always has precedence. |
-| 🌐 **Disable Network Card Power Saving** | Prevents the system from throttling your network card's bandwidth. This optimization is crucial for preventing lag and latency spikes during online gaming sessions. |
-| 🧹 **Clear DNS Cache** | Clears the system's DNS cache to resolve potential connection issues and improve response times (ping) with gaming servers. |
-| 💾 **Disable Hibernation** | Disables the hibernation feature to free up valuable disk space (the `hiberfil.sys` file) and reduce overall system load. |
-| 🎯 **Disable Mouse Acceleration** | Removes mouse pointer acceleration at the operating system level. This provides greater precision and a 1:1 response, essential for FPS games and e-sports. |
-| 🔄 **Optimize Windows Update Services** | Prevents Windows Update from downloading and installing updates in the background while you're gaming, reducing resource usage and preventing FPS drops. |
-
----
-
-## ⚙️ How It Works
-
-The tool temporarily modifies the following system settings to maximize performance:
-
-* **Disable Telemetry and Unnecessary Services**: Stops background services and telemetry activities that consume CPU and network cycles.
-* **CPU Management**: Disables CPU "Core Parking" and activates the "Ultimate Performance" power plan to ensure the processor runs at its full capacity.
-* **System Optimizations**: Applies registry modifications to optimize memory management, visual interface effects, and other basic settings.
-* **Xbox Services Management**: Disables services related to the Game Bar and the Xbox app that can impact performance.
-* **Network & I/O**: Tweaks network settings to reduce latency and improves I/O performance by managing the system cache.
-
-## ⚠️ Warning
-
-* **Run as Administrator**: This script must be run with administrator permissions to apply modifications to the system registry and services.
-* **Compatibility**: Designed for Windows 10 and 11. It may not work correctly on earlier versions of Windows.
-* **Safe Restore**: The "Standard" mode now restores your PC to its **original state** by using a backup file, ensuring a safe and reversible process.
-
----
+-----
 
 ## 🛠️ How to Use
 
-1. **Download** the `.exe` from GitHub
-2. **Run as Administrator**
-3. **Select Boost Mode**
-4. **Click Boost**
-5. **(Optional)** Restart your system
+1.  **Download** the latest `.exe` from the [Releases page](https://www.google.com/search?q=https://github.com/ilborga70/SCL-Gaming-Boost/releases).
+2.  **Run as Administrator**. This is required to modify system services and registry settings.
+3.  **Select Your Language and Optimizations** from the main panel.
+4.  **Choose a Boost Mode** from the dropdown menu (`FPS Boost`, `Streaming Mode`).
+5.  Click the **Start Boost** button.
+6.  **(Recommended)** Restart your system to ensure all changes take effect.
+7.  To revert, simply open the tool and click **Stop Boost**.
 
----
+-----
 
-## 📦 Distribution & Requirements
+## ✨ Optimizations at a Glance
 
-- **Type**: Portable `.exe` (No installation required)
-- **OS**: Windows 10 or higher
-- **PowerShell**: 5.0+
-- **Permissions**: Admin rights required
+This version introduces a series of powerful optimizations, each of which can be enabled or disabled from the user interface.
 
----
+| Optimization | Detailed Description |
+|---|---|
+| 🔕 **Disable Windows Notifications** | Disables all system notifications to prevent annoying pop-ups and micro-stuttering that can disrupt gaming fluidity.
+| 🌐 **Disable Network Throttling** | Prevents the system from throttling your network card's bandwidth to save power. Crucial for preventing lag and latency spikes in online games.
+| 🧹 **Clear DNS Cache** | Flushes the system's DNS cache to resolve potential connection issues and improve response times (ping) with game servers.
+| 💾 **Disable Hibernation** | Disables the hibernation feature to free up gigabytes of valuable disk space (by deleting `hiberfil.sys`) and reduce overall system load.
+| 🎯 **Disable Mouse Acceleration** | Provides a true 1:1 mouse response by removing pointer acceleration at the OS level. Essential for precision in FPS games and e-sports.
+| 🔄 **Disable Windows Update** | Temporarily stops the Windows Update service from downloading and installing updates in the background, which consumes resources and causes FPS drops.
+
+-----
+
+## ⚙️ How It Works: The Technical Details
+
+The tool temporarily modifies system settings to maximize performance. Here’s a look under the hood:
+
+  - **Service Management**: Stops and disables a curated list of background services and telemetry activities that consume CPU, memory, and network cycles.
+  - **CPU Management**: Disables CPU "Core Parking" to ensure all cores are active and ready. It also activates the "Ultimate Performance" power plan to ensure the processor runs at its full potential without throttling.
+  - **System & Memory Tweaks**: Applies registry modifications to optimize thread scheduling, memory management (by prioritizing system cache and keeping drivers in RAM), and visual effects.
+  - **Game Bar & DVR Removal**: Disables services and registry keys related to the Windows Game Bar and background recording features that can impact performance.
+
+### Disabled Services
+
+The following services are disabled in `FPS Boost` mode:
+
+```
+SysMain (Superfetch)
+WSearch (Windows Search)
+DiagTrack (Connected User Experiences and Telemetry)
+Fax
+Spooler (Print Spooler)
+WMPNetworkSvc (Windows Media Player Network Sharing)
+XblGameSave (Xbox Live Game Save)
+BluetoothSupportService
+RemoteRegistry
+PhoneSvc
+```
+
+### Disabled Scheduled Tasks
+
+Key telemetry and data collection tasks are disabled:
+
+```
+Microsoft\Windows\Application Experience\ProgramDataUpdater
+Microsoft\Windows\Autochk\Proxy
+Microsoft\Windows\Customer Experience Improvement Program\Consolidator
+Microsoft\Windows\Customer Experience Improvement Program\UsbCeip
+```
+
+### Core Registry Tweaks
+
+| Registry Key | Value Set | Description |
+|---|---|---|
+| `HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection` | `AllowTelemetry: 0` | Disables core system telemetry. |
+| `HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl` | `Win32PrioritySeparation: 26` | Optimizes CPU thread priority for foreground applications (games). |
+| `HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects` | `VisualFXSetting: 2` | Disables unnecessary visual effects like animations for raw performance. |
+| `HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR` | `AppCaptureEnabled: 0` | Disables the native Windows game recording feature. |
+| `HKCU\SOFTWARE\Microsoft\GameBar` | `ShowStartupPanel: 0` | Prevents the Game Bar from appearing. |
+| `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management` | `LargeSystemCache: 1` | Prioritizes the system file cache for faster I/O operations. |
+| `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management` | `DisablePagingExecutive: 1` | Forces drivers and kernel code to remain in physical RAM, preventing paging and improving responsiveness. |
+
+-----
+
+## ⚠️ Important Information
+
+  - **Run as Administrator**: This script **must** be run with administrator permissions to apply the necessary changes to system services and the registry.
+  - **Safe Restore**: The "Standard" mode restores your PC to its **exact original state** by using a backup file created before the first boost. This ensures a 100% safe and reversible process.
+  - **Compatibility**: Designed and tested for **Windows 10 and 11**. It may not function correctly on earlier versions.
+
+## 📦 Requirements
+
+  - **OS**: Windows 10 or higher
+  - **PowerShell**: Version 5.0+ (pre-installed on modern Windows)
+  - **Permissions**: Administrator rights
+
+-----
 
 ## 📜 License
 
-Licensed under the **MIT License** — free to use, modify, and distribute.
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it. See the `LICENSE` file for more details.
 
----
+-----
 
-## 👤 Developer
+## 👤 About the Developer
 
-**ilborga70** — Gamer, Developer, Serial Optimizer
-📧 [borgaccino@gmail.com](mailto:borgaccino@gmail.com)
+**ilborga70** — Gamer, Developer, and Serial Optimizer.
+
+  - 📧 **Email**: [borgaccino@gmail.com](mailto:borgaccino@gmail.com)
+  - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
 
 
