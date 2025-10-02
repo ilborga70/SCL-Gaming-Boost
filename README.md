@@ -1,6 +1,83 @@
-# SCL Gaming Boost v1.9.1.0
+# Changelog - CPU Parking Status Indicator Feature
 
-# <img width="1913" height="1094" alt="SCL Gaming Boost v1 9 1" src="https://github.com/user-attachments/assets/54fb6722-4110-4cf9-9e8c-67abd3167b9d" />
+## <img width="1629" height="1241" alt="SCL Gaming Boost v1 9 2 0" src="https://github.com/user-attachments/assets/c2c5c944-ac61-475d-86ab-5217e43d008f" />
+
+### 🚀 New Features
+
+#### **Real-time CPU Parking Status Monitor**
+- **Added visual indicator** for CPU core parking status in the main interface
+- **Color-coded display**: 
+  - 🟢 **GREEN BOLD** "CPU Unparked" when core parking is disabled
+  - 🔴 **RED** "CPU Parked" when core parking is enabled
+- **Automatic status detection** from Windows registry settings
+- **Real-time updates** when:
+  - Application starts
+  - Boost mode is activated/deactivated
+  - Language is changed
+
+### 🔧 Technical Improvements
+
+#### **UI/UX Enhancements**
+- **New UI element** positioned below CPU usage monitor
+- **Dynamic text updates** based on current system state
+- **Multi-language support** with translations for both Italian and English
+- **Automatic layout adjustment** with increased window height to accommodate new element
+
+#### **Code Architecture**
+- **New utility functions**:
+  - `Get-CPUParkingStatus()` - Reads current CPU parking state from registry
+  - `Update-CPUParkingIndicator()` - Updates visual indicator based on system state
+- **Enhanced event handling** with status updates on:
+  - Boost toggle operations
+  - Language selection changes
+  - Application initialization
+
+### 🌐 Localization Updates
+
+#### **New Translation Keys**
+- `CPUParkingDisabled`: "CPU Sparcheggiata" (IT) / "CPU Unparked" (EN)
+- `CPUParkingEnabled`: "CPU Parcheggiata" (IT) / "CPU Parked" (EN)
+
+### 📊 System Integration
+
+#### **Registry Monitoring**
+- **Direct registry polling** of CPU power management settings
+- **Error handling** for registry access issues
+- **Cross-version compatibility** with Windows power management schemas
+
+### 🎯 User Benefits
+
+- **Instant visual feedback** on CPU optimization state
+- **Clear status indication** without needing to check system settings
+- **Enhanced transparency** of what the boost feature actually does
+- **Better user confidence** in optimization effectiveness
+
+### 🔄 Compatibility
+
+- **Windows Versions**: Windows 7, 8, 10, 11
+- **Architectures**: x64, x86
+- **Requirements**: Administrator privileges (maintained from previous versions)
+
+---
+
+### 📝 Notes for Users
+
+The CPU parking status indicator provides real-time feedback on whether your CPU cores are currently parked (power-saving mode) or unparked (full performance mode). This helps users verify that the performance optimizations are actually taking effect.
+
+### 🔍 Technical Details
+
+The feature monitors the registry key:
+`HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\0cc5b647-c1df-4637-891a-dec35c318583`
+
+**Values:**
+- `ValueMax = 0` → CPU Unparked (Performance Mode)
+- `ValueMax = 1` → CPU Parked (Power Saving Mode)
+
+---
+
+*For full documentation and source code, visit our [GitHub repository](https://github.com/ilborga70)*
+
+---
 
 **SCL Gaming Boost** is a lightweight yet powerful Windows utility designed to maximize your in-game performance. It intelligently disables non-essential services, halts background telemetry, and applies system-level tweaks to free up resources and reduce latency, giving you a smoother and more responsive gaming experience.
 
