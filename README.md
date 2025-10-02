@@ -1,6 +1,4 @@
-# Changelog - CPU Parking Status Indicator Feature
-
-## <img width="1629" height="1241" alt="SCL Gaming Boost v1 9 2 0" src="https://github.com/user-attachments/assets/c2c5c944-ac61-475d-86ab-5217e43d008f" />
+## <img width="1629" height="1241" alt="SCL Gaming Boost v1 9 3 0" src="https://github.com/user-attachments/assets/cf853d2f-9227-439f-ad1e-c66850136897" />
 
 ### 🚀 New Features
 
@@ -243,3 +241,4 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
   - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
