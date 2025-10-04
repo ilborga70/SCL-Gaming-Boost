@@ -1,4 +1,24 @@
-## <img width="1629" height="1241" alt="SCL Gaming Boost v1 9 3 0" src="https://github.com/user-attachments/assets/cf853d2f-9227-439f-ad1e-c66850136897" />
+## ![SCL Gaming Boost v2 0 0 0](https://github.com/user-attachments/assets/abe6cd07-2c60-4847-b051-38e93a47cbcd)
+
+
+## v2.0.0.0 - 2025-10-04
+
+This update focuses on integrating the external "Gaming PC Check" utility, improving UI stability, and fixing a critical pathing bug.
+
+### Added
+
+-   **Integration with Gaming PC Check**: Added a new "Analyze Gaming PC" button to the main window. This button launches the `Gaming PC Check - Complete Version GUI.exe` tool, allowing users to perform a system analysis directly from the SCL Gaming Boost interface.
+-   **New UI Translations**: Added text for the new "Analyze Gaming PC" button in both English and Italian dictionaries.
+
+### Changed
+
+-   **UI Layout Adjustment**: The layout and size of the bottom action buttons (`Analyze Gaming PC`, `Reboot PC`, `Info`) have been recalculated to ensure they fit properly within the window without overflowing.
+-   **Launch Method**: The `Start-Process` command for the analysis tool was updated to directly launch the `.exe` file, which is more efficient than calling it via PowerShell.
+
+### Fixed
+
+-   **Critical Pathing Bug**: Replaced the unreliable method of determining the script's directory (`Get-Process`) with the robust, built-in `$PSScriptRoot` variable. This resolves a major bug where the application could not find its own resource files (like the background image, icon, or the newly added analysis tool) depending on how the script was executed.
+-   **Error Handling**: The file-not-found error message for the analysis tool was updated to reflect the correct filename (`.exe`) and provide a clearer message to the user.
 
 ### 🚀 New Features
 
@@ -241,4 +261,6 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
   - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
+
 
