@@ -1,24 +1,39 @@
-## v2.1.0 - 2025-10-06
+## v2.2.0 - 2025-10-07
 
-<img width="2002" height="897" alt="Tabella comparativa BIOS-UEFI – Matrix Keyboard   Legacy Game Mode" src="https://github.com/user-attachments/assets/207d5340-848b-4953-8da7-ac5d15d7c71a" />
+## <img width="2002" height="897" alt="SCL Gaming Boost v2 2 0+" src="https://github.com/user-attachments/assets/f76b4b9c-9bd9-4d8a-98ae-74c276bb1bd8" />
 
-This update focuses on integrating the external "Gaming PC Check" utility, improving UI stability, and fixing a critical pathing bug.
+## **Miglioramenti chiave apportati:**
 
-### Added Gaming PC Check - Complete Version GUI v1.0.0
+1. **Riconoscimento GPU integrata completo**:
+   - Intel: UHD Graphics, HD Graphics, Iris Xe
+   - AMD: Radeon Graphics, Vega Graphics, RX serie integrata
+   - Pattern di riconoscimento più accurati
 
--   **Integration with Gaming PC Check**: Added a new "Analyze Gaming PC" button to the main window. This button launches the `Gaming PC Check - Complete Version GUI.exe` tool, allowing users to perform a system analysis directly from the SCL Gaming Boost interface.
--   **New UI Translations**: Added text for the new "Analyze Gaming PC" button in both English and Italian dictionaries.
+2. **Logica di selezione GPU primaria**:
+   - Priorità alle GPU dedicate
+   - Tra le dedicate, sceglie quella con punteggio più alto
+   - Solo se non ci sono dedicate, usa le integrate
 
-### Changed
+3. **Punteggi appropriati per GPU integrate**:
+   - Punteggio massimo limitato per GPU integrate
+   - Bonus per GPU integrate più potenti (Iris Xe, Radeon 680M/780M)
+   - Stima VRAM realistica basata sulla RAM di sistema
 
--   **UI Layout Adjustment**: The layout and size of the bottom action buttons (`Analyze Gaming PC`, `Reboot PC`, `Info`) have been recalculated to ensure they fit properly within the window without overflowing.
--   **Launch Method**: The `Start-Process` command for the analysis tool was updated to directly launch the `.exe` file, which is more efficient than calling it via PowerShell.
+4. **Visualizzazione chiara**:
+   - Mostra esplicitamente "GPU PRIMARIA"
+   - Elenca le altre GPU rilevate separatamente
+   - Calcola il punteggio complessivo SOLO con la GPU primaria
 
-### Fixed
+5. **Suggerimenti contestuali**:
+   - Suggerisce upgrade GPU solo per GPU dedicate con punteggio basso
+   - Non suggerisce upgrade per GPU integrate (sarebbe inutile)
 
--   **Critical Pathing Bug**: Replaced the unreliable method of determining the script's directory (`Get-Process`) with the robust, built-in `$PSScriptRoot` variable. This resolves a major bug where the application could not find its own resource files (like the background image, icon, or the newly added analysis tool) depending on how the script was executed.
--   **Error Handling**: The file-not-found error message for the analysis tool was updated to reflect the correct filename (`.exe`) and provide a clearer message to the user.
-
+Ora lo script:
+- ✅ Rileva correttamente tutte le GPU (Intel, AMD, NVIDIA)
+- ✅ Distingue tra integrate e dedicate
+- ✅ Seleziona automaticamente la GPU primaria attiva
+- ✅ Calcola il punteggio solo sulla GPU primaria
+- ✅ Mostra tutte le GPU rilevate ma usa solo quella principale per il voto.
 ### 🚀 New Features
 
 #### **Real-time CPU Parking Status Monitor**
@@ -260,4 +275,5 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
   - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
 
