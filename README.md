@@ -1,6 +1,6 @@
 ## v2.1.0 - 2025-10-06
 
-<img width="1629" height="1241" alt="SCL Gaming Boost v2 1 0+" src="https://github.com/user-attachments/assets/ce2c5835-5a31-4533-bedb-84e5939832cd" />
+<img width="2002" height="897" alt="Tabella comparativa BIOS-UEFI – Matrix Keyboard   Legacy Game Mode" src="https://github.com/user-attachments/assets/207d5340-848b-4953-8da7-ac5d15d7c71a" />
 
 This update focuses on integrating the external "Gaming PC Check" utility, improving UI stability, and fixing a critical pathing bug.
 
@@ -260,3 +260,4 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
   - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
