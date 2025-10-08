@@ -1,6 +1,6 @@
-## v2.2.0 - 2025-10-07
+## v2.3.0 - 2025-10-09
 
-## <img width="2002" height="897" alt="SCL Gaming Boost v2 2 0+" src="https://github.com/user-attachments/assets/f76b4b9c-9bd9-4d8a-98ae-74c276bb1bd8" />
+## ![SCL Gaming Boost v2 3 0+](https://github.com/user-attachments/assets/b6daa479-eec7-49d0-b0ac-351ef956ef9e)
 
 ## **Miglioramenti chiave apportati:**
 

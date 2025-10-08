@@ -2,7 +2,6 @@
 
 ## ![SCL Gaming Boost v2 3 0+](https://github.com/user-attachments/assets/b6daa479-eec7-49d0-b0ac-351ef956ef9e)
 
-
 ## **Miglioramenti chiave apportati:**
 
 1. **Riconoscimento GPU integrata completo**:
@@ -274,6 +273,5 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 
   - 📧 **Email**: [borgaccino@gmail.com](mailto:borgaccino@gmail.com)
   - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
-
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
