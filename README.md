@@ -2,12 +2,7 @@
 
 ## ![SCL Gaming Boost v2 5 0+](https://github.com/user-attachments/assets/acceabd9-f226-4d15-936c-650b06791c0f)
 
-
-## **Miglioramenti chiave apportati:**
-
 ## 🔧 Migliorie e Funzionalità Principali
-
-## **Le significative implementazioni migliorano precisione e usabilità:**
 
 1. 🗃️ Database e Valutazione Avanzata
 Punteggi Precisi: Utilizza un Sistema di Database Dinamico (locale e aggiornabile online) con punteggi basati su benchmark reali (es. PassMark) per CPU, GPU, RAM, SSD/HDD.
@@ -322,5 +317,6 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 
   - 📧 **Email**: [borgaccino@gmail.com](mailto:borgaccino@gmail.com)
   - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
+
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
