@@ -1,4 +1,4 @@
-## 🎮 SCL Gaming Boost v3.5.0 + PC Performance Test Pro 2025🎮
+## 🎮 SCL Gaming Boost v3.5.1 + PC Performance Test Pro 2025🎮�
 
 ## ![🎮 SCL Gaming Boost v3 5 0 + PC Performance Test Pro 2025🎮](https://github.com/user-attachments/assets/bdf90b97-c991-4916-8e0c-5a90e6ad6577)
 
@@ -324,6 +324,7 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 
   - 📧 **Email**: [borgaccino@gmail.com](mailto:borgaccino@gmail.com)
   - 🔗 **GitHub Profile**: [https://github.com/ilborga70](https://github.com/ilborga70)
+
 
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
