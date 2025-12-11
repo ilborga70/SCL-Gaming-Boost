@@ -1,6 +1,6 @@
 ## ⚙️PC Performance Test Pro⚙️
 
-## ![🎮 SCL Gaming Boost v3 5 0 + PC Performance Test Pro 2025🎮](https://github.com/user-attachments/assets/bdf90b97-c991-4916-8e0c-5a90e6ad6577)
+## <img width="693" height="772" alt="⚙️PC Performance Test Pro⚙️" src="https://github.com/user-attachments/assets/2af41a74-96fb-4a55-8a9c-054037fa3815" />
 
 ### 🚀 New Features
 
@@ -245,5 +245,6 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
 
 
