@@ -1,90 +1,7 @@
-## 🎮 SCL Gaming Boost v3.5.1 + PC Performance Test Pro 2025🎮
+## ⚙️PC Performance Test Pro⚙️
 
 ## ![🎮 SCL Gaming Boost v3 5 0 + PC Performance Test Pro 2025🎮](https://github.com/user-attachments/assets/bdf90b97-c991-4916-8e0c-5a90e6ad6577)
 
-## 🔧 Migliorie e Funzionalità Principali
-
-1. 🌍 Aggiornamento Online: Creata funzione Update-DatabaseFromOnline che punta correttamente al nuovo Gist e usa Normalize-BenchmarkToScore.
-
-2. 🗃️ Auto-apprendimento: Aggiunto funzioni Update-DatabaseWithDetectedComponents e Save-DatabaseAfterScan.
-In questo modo, il database locale "impara" i componenti che non conosce utilizzando i punteggi di fallback, per poi salvarli.
-
-3. 🌐 Localizzazione: Ampliato enormemente il dizionario $DICT.
-
-1. 🗃️ Database e Valutazione Avanzata
-Punteggi Precisi: Utilizza un Sistema di Database Dinamico (locale e aggiornabile online) con punteggi basati su benchmark reali (es. PassMark) per CPU, GPU, RAM, SSD/HDD.
-
-Algoritmi Avanzati: Valutazione hardware raffinata:
-
-RAM: Punteggio combinato (70% dimensione, 30% velocità).
-
-Storage: Distinzione e bonus prestazionale per SSD NVMe, SSD SATA e HDD.
-
-CPU/GPU: Punteggi basati su core, thread, frequenza, architettura e generazione.
-
-2. 🛡️ Analisi Sicurezza e Ottimizzazioni di Sistema
-Verifica critica delle configurazioni di sicurezza e ottimizzazione di Windows:
-
-Sicurezza: Controllo dello stato del TPM 2.0 e dell'attivazione di Secure Boot.
-
-Ottimizzazioni: Analisi di parametri chiave come:
-
-Stato di CPU Parking.
-
-Stato di GPU Hardware Scheduling.
-
-Configurazione HPET.
-
-Analisi del Piano di Alimentazione (Power Plan) e stato della Xbox Game Bar.
-
-3. 🌍 Usabilità e Interfaccia Utente (UI)
-Interfaccia Multilingua: Rilevamento automatico della lingua (Italiano/Inglese) con dizionario completo per tutti i testi e messaggi.
-
-Affidabilità: Gestione robusta degli errori, scansione non bloccante per mantenere la UI reattiva, e gestione ottimizzata della memoria.
-
-Aggiornamenti: Sistema di aggiornamento integrato per il download incrementale dei dati online, con fallback in assenza di connessione.
-
-
-1. **Correzione Rilevamento Disco Primario - Gaming PC Check**:
-   - Problema Risolto
-   - Issue: Lo script identificava erroneamente il disco primario del sistema operativo come HDD invece che SSD, causando una valutazione inaccurata delle prestazioni
-
-2. **📈 Miglioramenti**:
-   - Affidabilità: Minor dipendenza da strutture WMI complesse
-   - Precisione: Rilevamento corretto SSD/HDD per disco sistema
-   - Punteggio accurato: Bonus SSD applicati correttamente (+3 punti)
-   - Compatibilità: Funziona su diverse configurazioni hardware
-
-1. **Riconoscimento GPU integrata completo**:
-   - Intel: UHD Graphics, HD Graphics, Iris Xe
-   - AMD: Radeon Graphics, Vega Graphics, RX serie integrata
-   - Pattern di riconoscimento più accurati
-
-2. **Logica di selezione GPU primaria**:
-   - Priorità alle GPU dedicate
-   - Tra le dedicate, sceglie quella con punteggio più alto
-   - Solo se non ci sono dedicate, usa le integrate
-
-3. **Punteggi appropriati per GPU integrate**:
-   - Punteggio massimo limitato per GPU integrate
-   - Bonus per GPU integrate più potenti (Iris Xe, Radeon 680M/780M)
-   - Stima VRAM realistica basata sulla RAM di sistema
-
-4. **Visualizzazione chiara**:
-   - Mostra esplicitamente "GPU PRIMARIA"
-   - Elenca le altre GPU rilevate separatamente
-   - Calcola il punteggio complessivo SOLO con la GPU primaria
-
-5. **Suggerimenti contestuali**:
-   - Suggerisce upgrade GPU solo per GPU dedicate con punteggio basso
-   - Non suggerisce upgrade per GPU integrate (sarebbe inutile)
-
-Ora lo script:
-- ✅ Rileva correttamente tutte le GPU (Intel, AMD, NVIDIA)
-- ✅ Distingue tra integrate e dedicate
-- ✅ Seleziona automaticamente la GPU primaria attiva
-- ✅ Calcola il punteggio solo sulla GPU primaria
-- ✅ Mostra tutte le GPU rilevate ma usa solo quella principale per il voto.
 ### 🚀 New Features
 
 #### **Real-time CPU Parking Status Monitor**
@@ -328,4 +245,5 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 
 
 🔗 [GitHub Profile](https://github.com/ilborga70)
+
 
